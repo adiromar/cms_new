@@ -1,0 +1,14 @@
+For profile
+----------------
+
+1. list single edit, delete, view
+2. gharmuli records multi level member add
+3. gharmuuli records view 
+foreign form list all  in form
+
+------------------
+wumpdata
+- view by username
+- export all records with foreigh also
+- check site uploaded file in view
+- sajha form view

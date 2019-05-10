@@ -1,0 +1,254 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+body {
+  overflow-x: hidden;
+  background-color: #fff;
+}
+.legend-border{
+    /*border-top: 2px solid #d1cece;*/
+    /*margin-top: 30px;*/
+    color: green;
+    text-transform: uppercase;
+    /* font-size: 24px; */
+    font-weight: 700;
+    font-size: 18px;
+}
+.form_color{
+  background-color: #fff;
+  padding: 8px;
+}
+
+.nepali_title{
+  color: #020916;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.foreign_title{
+  font-size: 16px;
+  font-weight: 600;
+  color: #337AB7;
+  text-transform: capitalize;
+}
+.fsize{
+  font-size : 15px;
+}
+.heading_title{
+      margin: 10px 20px 20px 20px;
+    display: block;
+    /*background-color: #8dd1ee;*/
+    padding: 7px;
+    text-transform: capitalize;
+    border-bottom: 2px solid #3c8fe2;
+}
+
+.first_form{
+  /*background-color: #c4cccd; */
+  border: 2px solid lightgrey;
+  padding: 20px; 
+  margin: 20px; 
+  width: 97%;
+  border-radius: 12px;
+}
+.second_title{
+  border: 2px solid lightgrey;
+  padding: 0px 10px 10px 10px; 
+  margin: 20px; 
+  width: 97%;
+  border-radius: 12px;
+}
+.fieldset{
+  margin-top: -9px;
+}
+
+.multiple_form{
+  border: 2px solid lightgrey;
+  border-radius: 12px;
+  padding-bottom: 20px; 
+  /*background-color: #c4cccd; */
+  padding: 15px; 
+  margin: 0 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .mul_add{
+      float: left !important;
+    }
+}
+
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+  padding-left: 250px;
+}
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #1c1b1a;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-right: -250px;
+}
+
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #f25e19;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav>.sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.sidebar-nav>.sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav>.sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+.home_form *{
+background: none; border: none; color: white; cursor: pointer; text-transform: capitalize;
+}
+
+.home_form1 *{
+background: none; border: none; color: blue; cursor: pointer; font-size: 18px; text-transform: capitalize; 
+}
+
+
+li.home_form1 a:hover, a:focus{
+  /*list-style: none !important;*/
+  text-align: left;
+  color: #15d72c;
+}
+
+
+
+.list-items > li:hover{
+  border-color: #3c8fe2;
+}
+
+.list-items > li{
+  list-style: none !important;
+    padding: 6px 10px;
+    font-size: 14px;
+    line-height: 20px;
+    border-left: 5px solid transparent;
+}
+
+#menu > li:last-child{
+  float: right;
+}
+
+@media(min-width:768px) {
+  #wrapper {
+    padding-left: 0;
+  }
+  #wrapper.toggled {
+    padding-left: 250px;
+  }
+  #sidebar-wrapper {
+    width: 0;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+  }
+  #page-content-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .ty {
+  padding-top: 60px;
+}
+
+#navbar{
+   background: #8dd1ee !important;
+   padding-bottom: 5px;
+}
+
+.tile_front{
+  overflow: scroll;
+}
+
+.before_multiple{
+  border: 2px solid lightgrey; 
+  border-radius: 15px;
+  /*margin-bottom: 22px; */
+  padding-bottom: 20px;
+  margin: 0px 20px 22px 20px;
+}
